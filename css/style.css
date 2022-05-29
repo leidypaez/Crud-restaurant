@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lemonada', cursive;
+}
+
+body {
+  max-width: 100vw;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  background: #D64A41;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .logo {
+  width: 180px;
+  margin: auto;
+  position: absolute;
+}
+
+.section {
+  max-width: 100vw;
+  text-align: center;
+  padding: 5rem 1rem 1rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/*  --Dishes-- */
+.dishes {
+  margin: 1em;
+  padding: 10px;
+  font-size: 12px;
+  color: #D49940;
+  display: inline-block;
+  background: #962B2B;
+  -webkit-box-shadow: 10px 10px 30px 8px #a39494;
+          box-shadow: 10px 10px 30px 8px #a39494;
+}
+
+.dishes img {
+  width: 200px;
+  height: 120px;
+  max-width: 250px;
+}
+
+/*  --Modal-- */
+#modal {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#modal h2 {
+  color: #cfbf2f;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#modal div {
+  padding: 20px;
+  color: white;
+  min-width: 350px;
+  max-width: 500px;
+  border-radius: 10px;
+  background: #C9332A;
+}
+
+#modal div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#modal input {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 10px;
+  background: #863333;
+  margin: 0px 0px 15px 0px;
+}
+
+#modal input:focus {
+  border: solid #D49940;
+}
+
+/*  --Table-- */
+table {
+  padding: 10px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table thead {
+  color: white;
+  background: #D64A41;
+}
+
+table td, table th {
+  width: 180px;
+  min-width: 100px;
+  max-width: 200px;
+  padding: 12px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/*  --Footer-- */
+footer {
+  bottom: 0px;
+  font-size: 30px;
+  margin-top: 50px;
+  padding: 10px 0px;
+  text-align: center;
+  background: #D64A41;
+}
+
+footer i {
+  color: #f7e64e;
+}
+
+footer i:hover {
+  opacity: 0.8;
+}
+
+footer .text-footer {
+  font-size: 20px;
+  color: #f1c27b;
+}
+
+/*  --Icons-- */
+.icon {
+  width: 25px;
+  padding: 10;
+  border: none;
+  height: 25px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30%;
+}
+
+.icon:hover {
+  opacity: 0.8;
+}
+
+.iconYellow {
+  background: #D49940;
+}
+
+.iconRed {
+  background: #D64A41;
+}
+
+/*  --Buttons-- */
+.btn {
+  width: 100px;
+  border: none;
+  height: 30px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnYellow {
+  background: #FF9534;
+}
+
+.btnYellow:hover {
+  background: #f77c18;
+}
+
+.btnRed {
+  background: #7C0101;
+}
+
+.btnRed:hover {
+  background: #530101;
+}
+/*# sourceMappingURL=style.css.map */
